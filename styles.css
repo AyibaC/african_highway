@@ -1,0 +1,48 @@
+/* #top {
+  background-image: url("https://media.istockphoto.com/vectors/kente-cloth-seamless-pattern-vector-id1073431744");
+} */
+
+svg {
+  background: linear-gradient(
+    #6a0d83,
+    #ce4993 10%,
+    #ee5d6c 20%,
+    #fb9062 30%,
+    #eeaf61 40%
+  );
+}
+
+/* div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  background-image: url("https://5.imimg.com/data5/DG/QS/MY-59328884/african-print-fabric-500x500.jpg");
+} */
+
+x-sign {
+  display: flex;
+  font-size: 1rem;
+  color: #eb139c;
+  text-shadow: 0 0 10px #eb139c, 0 0 20px #e113eb, 0 0 40px #eb1383,
+    0 0 80px #eb13d6;
+  filter: saturate(60%);
+  animation: flicker steps(100) 1s 1s infinite;
+  font-family: "IBM Plex Sans", "sans-serif";
+}
+
+/* text {
+  color: #eb139c;
+  text-shadow: 0 0 10px #eb139c, 0 0 20px #e113eb, 0 0 40px #eb1383,
+    0 0 80px #eb13d6;
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) 1s 1s infinite;
+  font-family: "IBM Plex Sans", "sans-serif";
+} */
+
+@keyframes flicker {
+  50% {
+    color: white;
+    filter: saturate(200%) hue-rotate(20deg);
+  }
+}
