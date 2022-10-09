@@ -2,6 +2,21 @@
   background-image: url("https://media.istockphoto.com/vectors/kente-cloth-seamless-pattern-vector-id1073431744");
 } */
 
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 svg {
   background: linear-gradient(
     #6a0d83,
